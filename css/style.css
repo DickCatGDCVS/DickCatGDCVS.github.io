@@ -1,80 +1,73 @@
+/* 基础样式 */
 ul {
-    list-style-type: none;
-    margin: 0px 280px 0px 280px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444444;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #444444;
 }
 
 li {
-    float: left;
+     float: left;
 }
+
 li a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+     display: block;
+     color: #ffffff;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
 }
+
 li a:hover {
-    background-color: #7c7c7c;
+     background-color: #7c7c7c;
 }
+
 li {
-    border-right: 1px solid rgb(0, 0, 0);
+     border-right: 1px solid #000000;
 }
+
 li:last-child {
-    border-right: none;
+     border-right: none;
 }
 
-.header{
-    margin: 5px 280px 5px 280px;
-    width: 1500;
-    height: 200;
+.header, .hr, .main, .main2, .main3, .follow, .footer, .members {
+     margin-left: auto;
+     margin-right: auto;
 }
 
-.hr{
-    margin: 5px 280px 5px 280px;
+/* 响应式设计 */
+@media (max-width: 1200px) {
+     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
+         margin-left: 5%;
+         margin-right: 5%;
+     }
 }
 
-.main{
-    background-color: #000000;
-    border: 3px solid rgb(0, 0, 0);
-    border-width: 3px;
-    background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
-    
+@media (max-width: 992px) {
+     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
+         margin-left: 2%;
+         margin-right: 2%;
+     }
 }
 
-.main2{
-    background-color: #000000;
-    border: 3px solid rgb(0, 0, 0);
-    border-width: 3px;
-    background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
+@media (max-width: 768px) {
+     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
+         margin-left: 0;
+         margin-right: 0;
+     }
 }
 
-.main3{
-    background-color: #000000;
-    border: 3px solid rgb(0, 0, 0);
-    border-width: 3px;
-    background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
+/* 特定元素的响应式样式 */
+.members {
+     color: rgb(255, 255, 255);
+     margin-left: 100px;
+     margin-right: 100px;
 }
 
-.follow{
-    background-color: #000000;
-    border: 3px solid rgb(0, 0, 0);
-    border-width: 3px;
-    background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
-}
-
-.footer{
-    margin: 0px 280px 0px 280px;
-    color: brown;
-}
-
-.members{
-    margin: 0px 100px 0px 100px;
-    color: rgb(255, 255, 255);
+@media (max-width: 768px) {
+     .members {
+         margin-left: 20px;
+         margin-right: 20px;
+     }
 }
