@@ -41,6 +41,11 @@ li:last-child {
      ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
          margin-left: 5%;
          margin-right: 5%;
+         background-color: #000000;
+         border: 3px solid rgb(0, 0, 0);
+         border-width: 3px;
+         background-image: linear-gradient(#494949, #1f1f1f);
+/*          margin: 0px 280px 0px 280px; */     
      }
 }
 
@@ -48,6 +53,11 @@ li:last-child {
      ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
          margin-left: 2%;
          margin-right: 2%;
+         background-color: #000000;
+         border: 3px solid rgb(0, 0, 0);
+         border-width: 3px;
+         background-image: linear-gradient(#494949, #1f1f1f);
+/*          margin: 0px 280px 0px 280px; */
      }
 }
 
@@ -55,6 +65,11 @@ li:last-child {
      ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
          margin-left: 0;
          margin-right: 0;
+         background-color: #000000;
+         border: 3px solid rgb(0, 0, 0);
+         border-width: 3px;
+         background-image: linear-gradient(#494949, #1f1f1f);
+/*          margin: 0px 280px 0px 280px;           */
      }
 }
 
