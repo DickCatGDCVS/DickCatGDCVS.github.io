@@ -31,6 +31,12 @@ li:last-child {
      border-right: none;
 }
 
+body 
+{
+	background-image:url('./image/background.png');
+	background-color:#cccccc;
+}
+
 .header, .hr, .main, .main2, .main3, .follow, .footer, .members {
      margin-left: auto;
      margin-right: auto;
