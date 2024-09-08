@@ -1,89 +1,15 @@
-/* 基础样式 */
-ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #444444;
-}
-
-li {
-     float: left;
-}
-
-li a {
-     display: block;
-     color: #ffffff;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-}
-
-li a:hover {
-     background-color: #7c7c7c;
-}
-
-li {
-     border-right: 1px solid #000000;
-}
-
-li:last-child {
-     border-right: none;
-}
-
-body 
-{
-	background-image:url('../image/background.png');
-	background-color:#cccccc;
-}
-
-.header, .hr, .main, .main2, .main3, .follow, .footer, .members {
-     margin-left: auto;
-     margin-right: auto;
-}
-
-/* 响应式设计 */
-@media (max-width: 1200px) {
-     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
-         margin-left: 5%;
-         margin-right: 5%;    
-     }
-}
-
-@media (max-width: 992px) {
-     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
-         margin-left: 2%;
-         margin-right: 2%;
-     }
-}
-
-@media (max-width: 768px) {
-     ul, .header, .hr, .main, .main2, .main3, .follow, .footer {
-         margin-left: 0;
-         margin-right: 0;        */
-     }
-}
-
-/* 特定元素的响应式样式 */
-.members {
-     color: rgb(255, 255, 255);
-     margin-left: 100px;
-     margin-right: 100px;
-}
-
-@media (max-width: 768px) {
-     .members {
-         margin-left: 20px;
-         margin-right: 20px;
-     }
-}
-
 ul {
     list-style-type: none;
     margin: 0px 280px 0px 280px;
     padding: 0;
     overflow: hidden;
     background-color: #444444;
+        
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
 
 li {
@@ -99,6 +25,7 @@ li a {
 li a:hover {
     background-color: #7c7c7c;
 }
+
 li {
     border-right: 1px solid rgb(0, 0, 0);
 }
@@ -107,22 +34,33 @@ li:last-child {
 }
 
 .header{
-    margin: 5px 280px 5px 280px;
-    width: 1500;
-    height: 200;
+    /* margin: 5px 280px 5px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
 
 .hr{
-    margin: 5px 280px 5px 280px;
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
+
 
 .main{
     background-color: #000000;
     border: 3px solid rgb(0, 0, 0);
     border-width: 3px;
     background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
     
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
 
 .main2{
@@ -130,7 +68,12 @@ li:last-child {
     border: 3px solid rgb(0, 0, 0);
     border-width: 3px;
     background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
+    
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
 
 .main3{
@@ -138,7 +81,12 @@ li:last-child {
     border: 3px solid rgb(0, 0, 0);
     border-width: 3px;
     background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
+    
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: 164px;
+    white-space: nowrap;
 }
 
 .follow{
@@ -146,16 +94,31 @@ li:last-child {
     border: 3px solid rgb(0, 0, 0);
     border-width: 3px;
     background-image: linear-gradient(#494949, #1f1f1f);
-    margin: 0px 280px 0px 280px;
+    
+    /* margin: 0px 280px 0px 280px; */
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    white-space: nowrap;
 }
 
 .footer{
     margin: 0px 280px 0px 280px;
     color: brown;
+    margin: auto;
+}
+
+.ntitle{
+    margin: 0px 0px 0px 50px;
 }
 
 .members{
     margin: 0px 100px 0px 100px;
+    color: rgb(255, 255, 255);
+}
+
+.mnews{
+    margin: 0px 50px 0px 50px;
     color: rgb(255, 255, 255);
 }
 
@@ -165,11 +128,6 @@ li:last-child {
 }
 
 .news1{
-    margin: 0px 50px 0px 50px;
-    color: rgb(255, 255, 255);
-}
-
-.mnews{
     margin: 0px 50px 0px 50px;
     color: rgb(255, 255, 255);
 }
